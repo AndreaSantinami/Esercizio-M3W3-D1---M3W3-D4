@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: feather;
+    src: url("assets/assets/feather.ttf");
+}
+
+#titolo-pagina{
+    padding:6.5rem 6.5rem 0 6.5rem ;
+}
+
+.dropdown-menu {
+    min-width: 200px;
+    border-radius: 10px;
+  }
+  
+  .dropdown-menu li {
+    padding: 0.5rem 1rem;
+  }
+  
+  .dropdown-menu .dropdown-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  .dropdown-menu .dropdown-item i {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .dropdown-divider {
+    margin: 0;
+  }
+  
+  .dropdown-menu img.rounded-circle {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .dropdown-menu .text-center strong {
+    font-size: 1rem;
+    display: block;
+  }
+  
+  .dropdown-menu .text-center small {
+    color: #888;
+  }
+  
+
+  .save-icon-container {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .save-icon {
+    width: 2rem;
+    height: 2rem;
+    fill: transparent; 
+    transition: fill 0.3s ease; 
+  }
+  
+  .save-icon-container:hover .save-icon {
+    fill: #007bff; 
+  }
+  
+  .custom-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px; 
+  }
+  
+  .custom-card:hover {
+    cursor: pointer;
+    transform: scale(1.05); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+  }
+  
